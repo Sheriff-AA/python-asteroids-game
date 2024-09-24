@@ -1,5 +1,5 @@
 # Python Asteroids Game
-A simple video game based on the classic asteroids game.
+A simple video game based on the classic Asteroids game.
 
 # How to run?
 ### STEPS:
@@ -23,6 +23,10 @@ conda activate venv
 
 ```bash
 py -3.xx -m venv virtualenv
+```
+
+```bash
+.\virtualenv\Scripts\activate
 ```
 
 ### STEP 02- install the requirements
