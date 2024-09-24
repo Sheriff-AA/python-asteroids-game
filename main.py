@@ -44,13 +44,13 @@ def main():
             if isinstance(obj, Player):
                 obj.timer -= dt
 
-        for ast in asteroids:
-            if ast.collision(player_obj):
+        for asteroid in asteroids:
+            if asteroid.collision(player_obj):
                 print("Game Over!")
                 sys.exit()
             for shot in shots:
-                if ast.collision(shot):
-                    ast.kill()
+                if asteroid.collision(shot):
+                    asteroid.split()
                     shot.kill()
 
         screen.fill("black")
