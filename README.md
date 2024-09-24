@@ -38,8 +38,3 @@ pip install -r requirements.txt
 # Finally run the following command
 python main.py
 ```
-
-Now,
-```bash
-open up you local host and port
-```
